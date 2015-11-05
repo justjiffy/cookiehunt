@@ -4,6 +4,12 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def index
-  end
+  	@user = User.new
+  	@users = User.all
+	@hash = Gmaps4rails.build_markers(@building) do |building, marker|
+ 	 marker.lat building.location[0]
+ 	 marker.lng building.location[1]
+end
 
+end
 end
