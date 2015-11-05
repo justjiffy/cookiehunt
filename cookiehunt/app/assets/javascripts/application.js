@@ -14,3 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+handler = Gmaps.build('Google');
+handler.buildMap({ internal: {id: 'basic_map' }});
