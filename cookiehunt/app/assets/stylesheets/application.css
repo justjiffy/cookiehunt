@@ -13,3 +13,47 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Pacifico', cursive;
+}
+
+p {
+	font-family: tahoma;
+}
+.register-callout {
+  position: relative;
+}
+
+
+.register-callout h5 {
+  position: absolute;
+  left: 10%;
+  color: white;
+  width: 80%;
+}
+
+.register-callout img {
+  width: 100%;
+}
+
+.register-form {
+  position: relative;
+  top: 25px;
+}
+
+.register-form a {
+  width: 70%;
+}
+
+.register-form .input-fields {
+  width: 
+}
+
+.fullSize {
+  width: 100%;
+}

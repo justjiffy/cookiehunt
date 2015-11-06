@@ -6,10 +6,12 @@ class ApplicationController < ActionController::Base
   def index
   	@user = User.new
   	@users = User.all
-	@hash = Gmaps4rails.build_markers(@building) do |building, marker|
- 	 marker.lat building.location[0]
- 	 marker.lng building.location[1]
-end
+	@hash = Gmaps4rails.build_markers(@users) do |user, marker|
+	end
+  end
 
-end
+  def test
+  	@users = User.all
+  end
+
 end
