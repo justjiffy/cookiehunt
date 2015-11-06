@@ -25,10 +25,10 @@ h1, h2, h3, h4, h5 {
 p {
 	font-family: tahoma;
 }
+
 .register-callout {
   position: relative;
 }
-
 
 .register-callout h5 {
   position: absolute;
@@ -50,10 +50,17 @@ p {
   width: 70%;
 }
 
-.register-form .input-fields {
-  width: 
+.register-form i {
+  font-size: 150px;
+  color: #b3e5fc;
 }
 
+.register-form h5 {
+  width: 80%;
+  padding-bottom: 25px;
+  text-align: center;
+  margin: 0 auto;
+}
 .fullSize {
   width: 100%;
 }
